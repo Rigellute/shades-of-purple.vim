@@ -1,0 +1,81 @@
+# BASE UI
+ColorColumn: "backgroundDark"
+Conceal: ""
+Cursor: ""
+CursorIM: ""
+CursorColumn: ""
+CursorLine: ""
+Directory: ""
+DiffAdd: ""
+DiffChange: ""
+DiffDelete: ""
+DiffText: ""
+ErrorMsg: ""
+VertSplit: ""
+Folded: ""
+FoldColumn: ""
+SignColumn: ""
+IncSearch: "highlight strings"
+LineNr: "foreground"
+MatchParen: "background contrast"
+ModeMsg: ""
+MoreMsg: ""
+NonText: ""
+Normal: "other background"
+PMenu: "foreground backgroundDark"
+PMenuSel: "foreground background"
+PmenuSbar: "foreground"
+PmenuThumb: ""
+Question: ""
+Search: "backgroundDark strings"
+SpecialKey: ""
+SpellBad: ""
+SpellLocal: ""
+SpellCap: ""
+SpellRare: ""
+StatusLine: ""
+StatusLineNC: ""
+TabLine: ""
+TabLineFill: ""
+TabLineSel: ""
+Title: ""
+Visual: ""
+VisualNOS: ""
+WarningMsg: ""
+WildMenu: ""
+# BASE SYNTAX
+Comment: "comment"
+Constant: "constants"
+String: "strings" # Constant
+Character: "" # Constant
+Boolean: "" # Constant
+Number: "" # Constant
+Float: "" # Constant
+Identifier: "keywords"
+Function: "keywords" # Identifier
+Statement: ""
+Conditional: "" # Statement
+Repeat: "" # Statement
+Label: "" # Statement
+Operator: "keywords ." # Statement
+Keyword: "" # Statement
+Exception: "" # Statement
+PreProc: ""
+Include: "" # PreProc
+Define: "" # PreProc
+Macro: "" # PreProc
+PreCondit: "" # PreProc
+Type: "keywords ."
+StorageClass: "highlight ." # Type
+Structure: "" # Type
+Typedef: "" # Type
+Special: ""
+SpecialChar: "" # Special
+Tag: "" # Special
+Delimiter: "" # Special
+SpecialComment: "" # Special
+Debug: "" # Special
+Underlined: ""
+Ignore: ""
+Error: ""
+Todo: "highlight"

@@ -1,0 +1,10 @@
+name: 'shades-of-purple-vim'
+version: '1.0.0'
+license: 'MIT'
+author: 'Alexander Keliris'
+url: ''
+description: ''
+colorschemes:
+  - name: shades-of-purple-vim
+    background: 'dark'
+    palette: shades-of-purple-vim
