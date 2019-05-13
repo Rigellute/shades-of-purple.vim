@@ -1,31 +1,67 @@
+# Javascript - pangloss/vim-javascript
+jsVariableDef: 'other'
+jsStorageClass: 'keywords'
+jsImport: 'keywords'
+jsFrom: 'keywords'
+jsModuleAs: 'keywords'
+jsExport: 'keywords'
+jsExportDefault: 'keywords'
+jsClassKeyword: 'keywords'
+jsExtendsKeyword: 'keywords'
+jsTemplateString: 'templates'
+jsFuncCall: 'contrast'
+jsReturn: 'keywords'
+jsThis: 'definitions'
+jsTryCatchBlock: 'keywords'
+# Classes
+jsClassFuncName: 'contrast'
+jsClassProperty: 'white'
+jsClassDefinition: 'definitions'
+jsClassMethodType: 'keywords'
+# Objects
+jsObjectKey: 'objectKeys'
+jsFunctionKey: 'contrast'
+jsObjectMethodType: 'contrast'
+jsArrowFunction: 'contrast'
+jsRestExpression: 'keywords'
+# Flow 
+jsFlowDefinition: 'contrast'
+jsFlowArgumentDef: 'contrast'
+jsFlowType: 'objectKeys'
+jsFlowObject: 'contrast'
+# Functions 
+jsFuncArgs: 'other'
+jsFuncName: 'contrast'
+jsFunction: 'definitions'
+
 javaScriptComment: '' # Comment
 javaScriptLineComment: '' # Comment
 javaScriptCommentTodo: '' # Todo
 javaScriptSpecial: '' # Special
 javaScriptStringS: '' # String
 javaScriptStringD: '' # String
-javaScriptCharacter: '' # Character
+javaScriptCharacter: 'other' # Character
 javaScriptSpecialCharacter: '' # javaScriptSpecial
 javaScriptNumber: '' # javaScriptValue
 javaScriptConditional: '' # Conditional
 javaScriptRepeat: '' # Repeat
 javaScriptBranch: '' # Conditional
-javaScriptOperator: '' # Operator
-javaScriptType: '' # Type
-javaScriptStatement: '' # Statement
+javaScriptOperator: 'keywords' # Operator
+javaScriptType: 'objectKeys' # Type
+javaScriptStatement: 'other' # Statement
 javaScriptFunction: '' # Function
 javaScriptBraces: '' # Function
-javaScriptError: '' # Error
-javaScriptParensError: '' # Error
+javaScriptError: 'invalid' # Error
+javaScriptParensError: 'invalid' # Error
 javaScriptNull: '' # Keyword
 javaScriptBoolean: '' # Boolean
 javaScriptRegexpString: '' # String
-javaScriptIdentifier: '' # Identifier
-javaScriptLabel: '' # Label
-javaScriptException: '' # Exception
+javaScriptIdentifier: 'other' # Identifier
+javaScriptLabel: 'other' # Label
+javaScriptException: 'invalid' # Exception
 javaScriptMessage: '' # Keyword
 javaScriptGlobal: '' # Keyword
-javaScriptMember: '' # Keyword
+javaScriptMember: 'contrastLite' # Keyword
 javaScriptDeprecated: '' # Exception
 javaScriptReserved: '' # Keyword
 javaScriptDebug: '' # Debug

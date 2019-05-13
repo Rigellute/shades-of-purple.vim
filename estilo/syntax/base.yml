@@ -1,7 +1,7 @@
 # BASE UI
 ColorColumn: "backgroundDark"
 Conceal: ""
-Cursor: ""
+Cursor: "contrast"
 CursorIM: ""
 CursorColumn: ""
 CursorLine: ""
@@ -10,39 +10,40 @@ DiffAdd: ""
 DiffChange: ""
 DiffDelete: ""
 DiffText: ""
-ErrorMsg: ""
+ErrorMsg: "invalid"
 VertSplit: ""
 Folded: ""
 FoldColumn: ""
 SignColumn: ""
-IncSearch: "highlight strings"
-LineNr: "foreground"
+IncSearch: "backgroundDark searchHighlight"
+LineNr: "foreground gutter"
+CursorLineNr: "white gutter"
 MatchParen: "background contrast"
 ModeMsg: ""
 MoreMsg: ""
 NonText: ""
-Normal: "other background"
-PMenu: "foreground backgroundDark"
-PMenuSel: "foreground background"
-PmenuSbar: "foreground"
+Normal: "white background"
+PMenu: "foreground menuBackground"
+PMenuSel: "other background"
+PmenuSbar: ""
 PmenuThumb: ""
 Question: ""
-Search: "backgroundDark strings"
+Search: "backgroundDark currentSearch"
 SpecialKey: ""
 SpellBad: ""
 SpellLocal: ""
 SpellCap: ""
 SpellRare: ""
-StatusLine: ""
+StatusLine: "- backgroundDark"
 StatusLineNC: ""
 TabLine: ""
 TabLineFill: ""
 TabLineSel: ""
 Title: ""
-Visual: ""
+Visual: "- selectionBackground"
 VisualNOS: ""
-WarningMsg: ""
-WildMenu: ""
+WarningMsg: "contrast"
+WildMenu: "- backgroundDark"
 # BASE SYNTAX
 Comment: "comment"
 Constant: "constants"
@@ -54,7 +55,7 @@ Float: "" # Constant
 Identifier: "keywords"
 Function: "keywords" # Identifier
 Statement: ""
-Conditional: "" # Statement
+Conditional: "keywords" # Statement
 Repeat: "" # Statement
 Label: "" # Statement
 Operator: "keywords ." # Statement
@@ -65,9 +66,9 @@ Include: "" # PreProc
 Define: "" # PreProc
 Macro: "" # PreProc
 PreCondit: "" # PreProc
-Type: "keywords ."
-StorageClass: "highlight ." # Type
-Structure: "" # Type
+Type: "objectKeys ."
+StorageClass: "keywords ." # Type
+Structure: "contrastLite" # Type
 Typedef: "" # Type
 Special: ""
 SpecialChar: "" # Special
@@ -75,7 +76,7 @@ Tag: "" # Special
 Delimiter: "" # Special
 SpecialComment: "" # Special
 Debug: "" # Special
-Underlined: ""
+Underlined: "invalid"
 Ignore: ""
-Error: ""
+Error: "invalid"
 Todo: "highlight"
