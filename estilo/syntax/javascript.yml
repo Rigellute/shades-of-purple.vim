@@ -13,6 +13,7 @@ jsFuncCall: 'contrast'
 jsReturn: 'keywords'
 jsThis: 'definitions'
 jsTryCatchBlock: 'keywords'
+jsBlock: 'other'
 # Classes
 jsClassFuncName: 'contrast'
 jsClassProperty: 'white'
@@ -53,9 +54,9 @@ javaScriptFunction: '' # Function
 javaScriptBraces: '' # Function
 javaScriptError: 'invalid' # Error
 javaScriptParensError: 'invalid' # Error
-javaScriptNull: '' # Keyword
-javaScriptBoolean: '' # Boolean
-javaScriptRegexpString: '' # String
+javaScriptNull: 'constants' # Keyword
+javaScriptBoolean: 'constants' # Boolean
+javaScriptRegexpString: 'variable' # String
 javaScriptIdentifier: 'other' # Identifier
 javaScriptLabel: 'other' # Label
 javaScriptException: 'invalid' # Exception

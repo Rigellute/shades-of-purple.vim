@@ -4,7 +4,7 @@
 " URL: 
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/05/13 11:45
+" Last Change: 2019/05/13 14:15
 " ===============================================================
 
 set background=dark
@@ -17,15 +17,18 @@ let g:colors_name="shades_of_purple"
 hi ColorColumn guifg=#1E1E3F ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IncSearch guifg=#1E1E3F ctermfg=234 guibg=#FFFF03 ctermbg=11 gui=NONE cterm=NONE
 hi LineNr guifg=#A599E9 ctermfg=140 guibg=#28284E ctermbg=235 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#FFFFFF ctermfg=15 guibg=#28284E ctermbg=235 gui=NONE cterm=NONE
-hi MatchParen guifg=#2D2B55 ctermfg=236 guibg=#FAD000 ctermbg=220 gui=NONE cterm=NONE
+hi MatchParen guifg=#2D2B55 ctermfg=236 guibg=#FAEFA5 ctermbg=229 gui=NONE cterm=NONE
 hi Normal guifg=#FFFFFF ctermfg=15 guibg=#2D2B55 ctermbg=236 gui=NONE cterm=NONE
 hi PMenu guifg=#A599E9 ctermfg=140 guibg=#1F1F41 ctermbg=235 gui=NONE cterm=NONE
 hi PMenuSel guifg=#9EFFFF ctermfg=159 guibg=#2D2B55 ctermbg=236 gui=NONE cterm=NONE
-hi Search guifg=#1E1E3F ctermfg=234 guibg=#ff7300 ctermbg=202 gui=NONE cterm=NONE
+hi Search guifg=NONE ctermfg=NONE guibg=#7d44b2 ctermbg=97 gui=NONE cterm=NONE
+hi IncSearch guifg=#1E1E3F ctermfg=234 guibg=#FFFF03 ctermbg=11 gui=NONE cterm=NONE
+hi SpellBad guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLine guifg=NONE ctermfg=NONE guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
+hi StatusLineNC guifg=NONE ctermfg=NONE guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
+hi Title guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#7d44b2 ctermbg=97 gui=NONE cterm=NONE
 hi WarningMsg guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=NONE ctermfg=NONE guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
@@ -56,6 +59,7 @@ hi jsFuncCall guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi jsReturn guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsThis guifg=#FB94FF ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsTryCatchBlock guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsBlock guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsClassFuncName guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsClassProperty guifg=#FFFFFF ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsClassDefinition guifg=#FB94FF ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -78,6 +82,9 @@ hi javaScriptType guifg=#80FFBB ctermfg=121 guibg=NONE ctermbg=NONE gui=NONE cte
 hi javaScriptStatement guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javaScriptError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javaScriptParensError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javaScriptNull guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javaScriptBoolean guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javaScriptRegexpString guifg=#E1EFFF ctermfg=195 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javaScriptIdentifier guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javaScriptLabel guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javaScriptException guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
