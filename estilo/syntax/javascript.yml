@@ -1,22 +1,30 @@
 # Javascript - pangloss/vim-javascript
 jsVariableDef: 'other'
 jsStorageClass: 'keywords'
-jsImport: 'keywords'
-jsFrom: 'keywords'
-jsModuleAs: 'keywords'
-jsExport: 'keywords'
-jsExportDefault: 'keywords'
-jsClassKeyword: 'keywords'
 jsExtendsKeyword: 'keywords'
 jsTemplateString: 'templates'
 jsFuncCall: 'contrast'
 jsReturn: 'keywords'
-jsThis: 'definitions'
 jsTryCatchBlock: 'keywords'
 jsBlock: 'other'
+jsSpecial: 'contrastLite'
+jsTemplateExpression: 'other'
+jsAsyncKeyword: 'constants'
+jsForAwait: 'constants'
+jsGlobalNodeObjects: 'other'
+# Modules 
+jsImport: 'keywords'
+jsFrom: 'keywords'
+jsModuleAs: 'keywords'
+jsModuleKeyword: 'other'
+jsModuleAsterisk: 'invalid'
+jsExport: 'keywords'
+jsExportDefault: 'keywords'
 # Classes
 jsClassFuncName: 'contrast'
+jsClassKeyword: 'keywords'
 jsClassProperty: 'white'
+jsThis: 'definitions'
 jsClassDefinition: 'definitions'
 jsClassMethodType: 'keywords'
 # Objects
@@ -25,16 +33,23 @@ jsFunctionKey: 'contrast'
 jsObjectMethodType: 'contrast'
 jsArrowFunction: 'contrast'
 jsRestExpression: 'keywords'
+jsObjectProp: 'contrastLite'
 # Flow 
 jsFlowDefinition: 'contrast'
 jsFlowArgumentDef: 'contrast'
 jsFlowType: 'objectKeys'
-jsFlowObject: 'contrast'
+jsFlowObject: 'white'
+jsFlowTypeStatement: 'contrast'
+jsFlowMaybe: 'keywords'
+jsFlowReturn: 'contrast'
 # Functions 
 jsFuncArgs: 'other'
 jsFuncName: 'contrast'
 jsFunction: 'definitions'
+jsGenerator: 'other'
+jsStatement: 'keywords'
 
+# Builtin styles
 javaScriptComment: '' # Comment
 javaScriptLineComment: '' # Comment
 javaScriptCommentTodo: '' # Todo
@@ -49,7 +64,7 @@ javaScriptRepeat: '' # Repeat
 javaScriptBranch: '' # Conditional
 javaScriptOperator: 'keywords' # Operator
 javaScriptType: 'objectKeys' # Type
-javaScriptStatement: 'other' # Statement
+javaScriptStatement: 'keywords' # Statement
 javaScriptFunction: '' # Function
 javaScriptBraces: '' # Function
 javaScriptError: 'invalid' # Error
@@ -67,3 +82,9 @@ javaScriptDeprecated: '' # Exception
 javaScriptReserved: '' # Keyword
 javaScriptDebug: '' # Debug
 javaScriptConstant: '' # Label
+
+# JSX highlighting
+xmlAttrib: 'contrast'
+xmlEndTag: 'other'
+xmlTag: 'other'
+xmlTagName: 'other'

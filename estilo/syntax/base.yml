@@ -16,12 +16,12 @@ Folded: ""
 FoldColumn: ""
 SignColumn: ""
 LineNr: "foreground gutter"
-CursorLineNr: "white gutter"
+CursorLineNr: "variable gutter"
 MatchParen: "background contrastLiteII"
 ModeMsg: ""
 MoreMsg: ""
 NonText: ""
-Normal: "white background"
+Normal: "variable background"
 PMenu: "foreground menuBackground"
 PMenuSel: "other background"
 PmenuSbar: ""
@@ -70,7 +70,7 @@ Type: "objectKeys ."
 StorageClass: "keywords ." # Type
 Structure: "contrastLite" # Type
 Typedef: "" # Type
-Special: ""
+Special: "other"
 SpecialChar: "" # Special
 Tag: "" # Special
 Delimiter: "" # Special
