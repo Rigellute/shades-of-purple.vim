@@ -71,7 +71,7 @@ javaScriptError: 'invalid' # Error
 javaScriptParensError: 'invalid' # Error
 javaScriptNull: 'constants' # Keyword
 javaScriptBoolean: 'constants' # Boolean
-javaScriptRegexpString: 'variable' # String
+javaScriptRegexpString: 'white' # String
 javaScriptIdentifier: 'other' # Identifier
 javaScriptLabel: 'other' # Label
 javaScriptException: 'invalid' # Exception

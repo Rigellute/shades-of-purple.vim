@@ -4,7 +4,7 @@
 " URL: 
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/05/13 20:10
+" Last Change: 2019/05/13 20:27
 " ===============================================================
 
 set background=dark
@@ -68,7 +68,7 @@ hi jsExport guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi jsExportDefault guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsClassFuncName guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsClassKeyword guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsClassProperty guifg=#FFFFFF ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsClassProperty guifg=#E1EFFF ctermfg=195 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsThis guifg=#FB94FF ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsClassDefinition guifg=#FB94FF ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsClassMethodType guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -81,7 +81,7 @@ hi jsObjectProp guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi jsFlowDefinition guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFlowArgumentDef guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFlowType guifg=#80FFBB ctermfg=121 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsFlowObject guifg=#FFFFFF ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFlowObject guifg=#E1EFFF ctermfg=195 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFlowTypeStatement guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFlowMaybe guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFlowReturn guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
