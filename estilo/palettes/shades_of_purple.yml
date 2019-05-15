@@ -29,3 +29,4 @@ currentSearch: '#ff7300'
 objectKeys: '#80FFBB'
 # This should be similar to `comment`
 selectionBackground: '#7d44b2'
+cssEntity: '#3AD900'

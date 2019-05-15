@@ -85,6 +85,6 @@ javaScriptConstant: '' # Label
 
 # JSX highlighting
 xmlAttrib: 'contrast'
-xmlEndTag: 'other'
-xmlTag: 'other'
-xmlTagName: 'other'
+xmlEndTag: 'objectKeys'
+xmlTag: 'objectKeys'
+xmlTagName: 'objectKeys'
