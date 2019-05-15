@@ -43,7 +43,7 @@ jsFlowTypeStatement: 'contrast'
 jsFlowMaybe: 'keywords'
 jsFlowReturn: 'contrast'
 # Functions 
-jsFuncArgs: 'other'
+jsFuncArgs: 'white'
 jsFuncName: 'contrast'
 jsFunction: 'definitions'
 jsGenerator: 'other'
