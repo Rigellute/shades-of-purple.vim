@@ -4,7 +4,7 @@
 " URL: 
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/05/16 09:37
+" Last Change: 2019/05/17 11:25
 " ===============================================================
 
 set background=dark
@@ -17,6 +17,7 @@ let g:colors_name="shades_of_purple"
 hi ColorColumn guifg=#1E1E3F ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SignColumn guifg=#A599E9 ctermfg=140 guibg=#28284E ctermbg=235 gui=NONE cterm=NONE
 hi LineNr guifg=#A599E9 ctermfg=140 guibg=#28284E ctermbg=235 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#E1EFFF ctermfg=195 guibg=#28284E ctermbg=235 gui=NONE cterm=NONE
 hi MatchParen guifg=#2D2B55 ctermfg=236 guibg=#FAEFA5 ctermbg=229 gui=NONE cterm=NONE
@@ -135,6 +136,13 @@ hi jsonMissingCommaError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=N
 hi jsonStringSQError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsonNoQuotesError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsonTripleQuotesError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi htmlH1 guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi link htmlH2 htmlH1
+hi link htmlH3 htmlH1
+hi htmlH4 guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link htmlH5 htmlH4
+hi link htmlH6 htmlH4
+hi typescriptSource guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 
 " ===================================
