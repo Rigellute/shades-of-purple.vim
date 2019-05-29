@@ -4,7 +4,7 @@
 " URL:
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/05/28 11:47
+" Last Change: 2019/05/29 09:10
 " ============================================================
 
 let g:airline#themes#shades_of_purple#palette = {}
@@ -29,9 +29,9 @@ let s:visual2 = [ "#1E1E3F", "#FB94FF", 234, 213 ]
 let s:visual3 = [ "#A599E9", "#1E1E3F", 140, 234 ]
 let g:airline#themes#shades_of_purple#palette.visual = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)
 
-let s:inactive1 = [ "#1E1E3F", "#A599E9", 234, 140 ]
-let s:inactive2 = [ "#A599E9", "#1E1E3F", 140, 234 ]
-let s:inactive3 = [ "#1E1E3F", "#A599E9", 234, 140 ]
+let s:inactive1 = [ "#A599E9", "#1E1E3F", 140, 234 ]
+let s:inactive2 = [ "#1E1E3F", "#A599E9", 234, 140 ]
+let s:inactive3 = [ "#A599E9", "#1E1E3F", 140, 234 ]
 let g:airline#themes#shades_of_purple#palette.inactive = airline#themes#generate_color_map(s:inactive1, s:inactive2, s:inactive3)
 
 if !get(g:, 'loaded_ctrlp', 0)

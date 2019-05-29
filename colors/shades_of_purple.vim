@@ -4,7 +4,7 @@
 " URL: 
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/05/28 11:47
+" Last Change: 2019/05/29 09:10
 " ===============================================================
 
 set background=dark
