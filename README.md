@@ -19,43 +19,55 @@ set termguicolors
 
 """" enable the theme
 syntax enable
-colorscheme shades_of_purple 
+colorscheme shades_of_purple
 ```
 
 ## Airline
+
 ![airline-vim](https://user-images.githubusercontent.com/12150276/57929514-75a50300-78ab-11e9-9227-e4dbab4cfa93.png)
 
-If you would like to use the accompanying airline colorscheme 
+If you would like to use the accompanying airline colorscheme
+
 ```vim
 let g:shades_of_purple_airline = 1
 let g:airline_theme='shades_of_purple'
 ```
 
+## Lightline
+
+If you would like to use the accompanying lightline colorscheme
+
+```vim
+let g:shades_of_purple_lightline = 1
+let g:lightline = { 'colorscheme': 'shades_of_purple' }
+```
+
 ## Terminal
+
 <img width="836" alt="alacritty" src="https://user-images.githubusercontent.com/12150276/57929515-75a50300-78ab-11e9-9c11-4630a16812fd.png">
 
-For a complete experience, make your terminal use the same colorscheme as vim. 
+For a complete experience, make your terminal use the same colorscheme as vim.
 
 I use [alacritty](https://github.com/jwilm/alacritty)
 
 Add this to `~/.config/alacritty/alacritty.yml`
 
 ```yml
-# Colors 
+# Colors
 colors:
   # Default colors
   primary:
-    background: '0x1E1E3F'
-    foreground: '0xE1EFFF'
+    background: "0x1E1E3F"
+    foreground: "0xE1EFFF"
 
   # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
-    text: '0x1E1E3F'
-    cursor: '0xFAD000'
+    text: "0x1E1E3F"
+    cursor: "0xFAD000"
 
   # Normal colors
   normal:
-    black: '0x000000'
+    black: "0x000000"
     red: "0xEC3A37"
     green: "0x75e44c"
     yellow: "0xFAD000"
@@ -79,12 +91,14 @@ colors:
 For other terminal emulators [check here](https://github.com/ahmadawais/shades-of-purple-vscode#put-shades-of-purple-in-other-places)
 
 ## TODO
+
 Syntax support
+
 - [x] javascript
 - [x] jsx
-- [x] flow types 
+- [x] flow types
 - [x] css
-- [x] json 
+- [x] json
 - [x] yml
 - [ ] markdown
 - [ ] typescript
