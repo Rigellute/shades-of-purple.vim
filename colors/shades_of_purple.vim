@@ -4,7 +4,7 @@
 " URL: 
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/06/03 15:01
+" Last Change: 2019/06/03 17:56
 " ===============================================================
 
 set background=dark
@@ -36,6 +36,9 @@ hi IncSearch guifg=#1E1E3F ctermfg=234 guibg=#FFFF03 ctermbg=11 gui=NONE cterm=N
 hi SpellBad guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLine guifg=NONE ctermfg=NONE guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
 hi StatusLineNC guifg=NONE ctermfg=NONE guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
+hi TabLine guifg=#A599E9 ctermfg=140 guibg=#28284E ctermbg=235 gui=NONE cterm=NONE
+hi TabLineFill guifg=#28284E ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TabLineSel guifg=#1E1E3F ctermfg=234 guibg=#A599E9 ctermbg=140 gui=NONE cterm=NONE
 hi Title guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#7d44b2 ctermbg=97 gui=NONE cterm=NONE
 hi WarningMsg guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

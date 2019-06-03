@@ -4,7 +4,7 @@
 " URL:
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/06/03 15:01
+" Last Change: 2019/06/03 17:56
 " ============================================================
 
 let g:airline#themes#shades_of_purple#palette = {}

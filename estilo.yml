@@ -12,4 +12,7 @@ airline:
   - name: shades_of_purple 
     palette: shades_of_purple
     style: shades_of_purple
-
+lightline:
+  - name: shades_of_purple
+    palette: shades_of_purple 
+    style: shades_of_purple
