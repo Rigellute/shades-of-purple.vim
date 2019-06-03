@@ -35,6 +35,8 @@ let g:airline_theme='shades_of_purple'
 
 ## Lightline
 
+![lightline](https://user-images.githubusercontent.com/12150276/58821346-c39c6380-862c-11e9-8542-aaee577c1cdd.png)
+
 If you would like to use the accompanying lightline colorscheme
 
 ```vim
