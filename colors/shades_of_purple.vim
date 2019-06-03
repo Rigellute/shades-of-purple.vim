@@ -4,7 +4,7 @@
 " URL: 
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/05/29 09:10
+" Last Change: 2019/06/03 14:59
 " ===============================================================
 
 set background=dark
@@ -16,7 +16,12 @@ let g:colors_name="shades_of_purple"
 
 hi ColorColumn guifg=#1E1E3F ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffAdd guifg=#00FF00 ctermfg=10 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffChange guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffDelete guifg=#FF000D ctermfg=9 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffText guifg=#E1EFFF ctermfg=195 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Folded guifg=#A599E9 ctermfg=140 guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
 hi SignColumn guifg=#A599E9 ctermfg=140 guibg=#28284E ctermbg=235 gui=NONE cterm=NONE
 hi LineNr guifg=#A599E9 ctermfg=140 guibg=#28284E ctermbg=235 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#E1EFFF ctermfg=195 guibg=#28284E ctermbg=235 gui=NONE cterm=NONE
