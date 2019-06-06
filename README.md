@@ -1,6 +1,10 @@
+A 24bit dark Vim colorscheme based on [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode)
+
 <img width="1029" alt="vim" src="https://user-images.githubusercontent.com/12150276/57929517-763d9980-78ab-11e9-9735-8a3700b52cf0.png">
 
-A 24bit dark Vim colorscheme based on [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode)
+Example using tmux with matching [terminal theme](#terminal)
+
+<img width="1792" alt="tmux" src="https://user-images.githubusercontent.com/12150276/59027173-3a657680-8850-11e9-8b97-bb3423449ded.png">
 
 ## Install
 
