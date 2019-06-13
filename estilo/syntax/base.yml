@@ -30,7 +30,7 @@ Question: ""
 Search: "- selectionBackground"
 IncSearch: "backgroundDark searchHighlight"
 SpecialKey: ""
-SpellBad: "invalid"
+SpellBad: "constants"
 SpellLocal: ""
 SpellCap: ""
 SpellRare: ""
@@ -76,7 +76,7 @@ Tag: "" # Special
 Delimiter: "" # Special
 SpecialComment: "" # Special
 Debug: "" # Special
-Underlined: "invalid"
+Underlined: "grey - u"
 Ignore: ""
 Error: "invalid"
 Todo: "highlight"

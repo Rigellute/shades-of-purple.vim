@@ -4,7 +4,7 @@
 " URL: 
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/06/06 10:19
+" Last Change: 2019/06/12 17:04
 " ===============================================================
 
 set background=dark
@@ -34,7 +34,7 @@ hi PMenu guifg=#A599E9 ctermfg=140 guibg=#1F1F41 ctermbg=235 gui=NONE cterm=NONE
 hi PMenuSel guifg=#9EFFFF ctermfg=159 guibg=#2D2B55 ctermbg=236 gui=NONE cterm=NONE
 hi Search guifg=NONE ctermfg=NONE guibg=#7d44b2 ctermbg=97 gui=NONE cterm=NONE
 hi IncSearch guifg=#1E1E3F ctermfg=234 guibg=#FFFF03 ctermbg=11 gui=NONE cterm=NONE
-hi SpellBad guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SpellBad guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLine guifg=#A599E9 ctermfg=140 guibg=#2D2B55 ctermbg=236 gui=NONE cterm=NONE
 hi StatusLineNC guifg=#A599E9 ctermfg=140 guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
 hi TabLine guifg=#A599E9 ctermfg=140 guibg=#28284E ctermbg=235 gui=NONE cterm=NONE
@@ -55,7 +55,7 @@ hi Type guifg=#80FFBB ctermfg=121 gui=NONE cterm=NONE
 hi StorageClass guifg=#FF9D00 ctermfg=214 gui=NONE cterm=NONE
 hi Structure guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Underlined guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Underlined guifg=#cad7e5 ctermfg=188 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi Error guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#FF7200 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssTagName guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
