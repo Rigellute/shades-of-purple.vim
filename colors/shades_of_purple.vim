@@ -4,7 +4,7 @@
 " URL: 
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/06/12 17:04
+" Last Change: 2019/06/14 09:23
 " ===============================================================
 
 set background=dark
@@ -16,12 +16,13 @@ let g:colors_name="shades_of_purple"
 
 hi ColorColumn guifg=#1E1E3F ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CursorColumn guifg=NONE ctermfg=NONE guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
 hi DiffAdd guifg=#00FF00 ctermfg=10 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffChange guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffDelete guifg=#FF000D ctermfg=9 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffText guifg=#E1EFFF ctermfg=195 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi ErrorMsg guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ErrorMsg guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi VertSplit guifg=#A599E9 ctermfg=140 guibg=#28284E ctermbg=235 gui=NONE cterm=NONE
 hi Folded guifg=#A599E9 ctermfg=140 guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
 hi SignColumn guifg=#A599E9 ctermfg=140 guibg=#28284E ctermbg=235 gui=NONE cterm=NONE
@@ -56,7 +57,7 @@ hi StorageClass guifg=#FF9D00 ctermfg=214 gui=NONE cterm=NONE
 hi Structure guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#cad7e5 ctermfg=188 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi Error guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Error guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi Todo guifg=#FF7200 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssTagName guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssValueLength guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
