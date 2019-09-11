@@ -19,7 +19,10 @@ Plug 'Rigellute/shades-of-purple.vim'
 " Plugin 'Rigellute/shades-of-purple.vim'
 
 """" enable 24bit true color
-set termguicolors
+" If you have vim >=8.0 or Neovim >= 0.1.5
+if (has("termguicolors"))
+ set termguicolors
+endif
 
 """" enable the theme
 syntax enable
@@ -96,15 +99,28 @@ colors:
 
 For other terminal emulators [check here](https://github.com/ahmadawais/shades-of-purple-vscode#put-shades-of-purple-in-other-places)
 
-## TODO
+## Troubleshooting
 
-Syntax support
+### True color
 
-- [x] javascript
-- [x] jsx
-- [x] flow types
-- [x] css
-- [x] json
-- [x] yml
-- [ ] markdown
-- [ ] typescript
+Make sure you are using a terminal emulator that supports `truecolor`. Read more about this [here](https://gist.github.com/XVilka/8346728).
+
+### Colours don't look right
+
+If you are running `vim` within `tmux`, you may run into some `truecolor` issues.
+
+To fix, add this to you `tmux.conf`
+
+```tmux
+set -g terminal-overrides ',xterm-256color:Tc'
+set -g default-terminal "tmux-256color"
+set -as terminal-overrides ',xterm*:sitm=\E[3m'
+```
+
+And in your `.bash_profile || .zshrc`
+
+```bash
+export TERM="xterm-256color"
+```
+
+Ensure you `tmux kill-server`, quit your emulator of choice and startup it all back up again. It should then look 👌.
