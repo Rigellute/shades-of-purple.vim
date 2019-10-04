@@ -27,7 +27,7 @@ if exists('g:shades_of_purple_bold')
 endif
 
 let g:shades_of_purple_bold = get(g:, 'shades_of_purple_bold', 0)
-hi ColorColumn term=reverse ctermbg=237   guibg=#1E1E3F guifg=#ffffff
+hi ColorColumn term=reverse ctermbg=237 guibg=#1E1E3F guifg=#ffffff
 hi Cursor guifg=#000000 ctermfg=220 guibg=#FAD000 ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
