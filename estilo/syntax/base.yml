@@ -1,7 +1,7 @@
 # BASE UI
-ColorColumn: "backgroundDark"
+ColorColumn: "- backgroundDark"
 Conceal: ""
-Cursor: "contrast"
+Cursor: "- contrast"
 CursorIM: ""
 CursorColumn: "- backgroundDark"
 CursorLine: "- backgroundDark"

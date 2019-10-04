@@ -4,7 +4,7 @@
 " URL: 
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/10/03 10:06
+" Last Change: 2019/10/04 16:49
 " ===============================================================
 
 set background=dark
@@ -27,8 +27,8 @@ if exists('g:shades_of_purple_bold')
 endif
 
 let g:shades_of_purple_bold = get(g:, 'shades_of_purple_bold', 0)
-hi ColorColumn guifg=#1E1E3F ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Cursor guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ColorColumn guifg=NONE ctermfg=NONE guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
+hi Cursor guifg=NONE ctermfg=NONE guibg=#FAD000 ctermbg=220 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
 hi DiffAdd guifg=#00FF00 ctermfg=10 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
