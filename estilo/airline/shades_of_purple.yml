@@ -1,6 +1,6 @@
 normal1: 'foreground backgroundDark'
 normal2: 'backgroundDark foreground'
-normal3: 'foreground backgroundDark'
+normal3: 'foreground background'
 inactive1: 'foreground backgroundDark'
 inactive2: 'foreground backgroundDark '
 inactive3: 'foreground backgroundDark '
