@@ -45,7 +45,7 @@ VisualNOS: ""
 WarningMsg: "contrast"
 WildMenu: "- backgroundDark"
 # BASE SYNTAX
-Comment: "comment"
+Comment: "comment - i"
 Constant: "constants"
 String: "strings" # Constant
 Character: "" # Constant
@@ -67,7 +67,7 @@ Define: "" # PreProc
 Macro: "" # PreProc
 PreCondit: "" # PreProc
 Type: "objectKeys ."
-StorageClass: "keywords ." # Type
+StorageClass: "keywords . i" # Type
 Structure: "contrastLite" # Type
 Typedef: "" # Type
 Special: "other"
