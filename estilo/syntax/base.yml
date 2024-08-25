@@ -52,23 +52,23 @@ Character: "" # Constant
 Boolean: "" # Constant
 Number: "" # Constant
 Float: "" # Constant
-Identifier: "keywords"
-Function: "keywords" # Identifier
-Statement: ""
-Conditional: "keywords" # Statement
+Identifier: "white"
+Function: "contrast" # Identifier
+Statement: "keywords"
+Conditional: "" # Statement
 Repeat: "" # Statement
 Label: "" # Statement
 Operator: "keywords ." # Statement
 Keyword: "" # Statement
 Exception: "" # Statement
 PreProc: ""
-Include: "" # PreProc
+Include: "keywords" # PreProc
 Define: "" # PreProc
 Macro: "" # PreProc
 PreCondit: "" # PreProc
-Type: "objectKeys ."
+Type: "contrast"
 StorageClass: "keywords ." # Type
-Structure: "contrastLite" # Type
+Structure: "keywords" # Type
 Typedef: "" # Type
 Special: "other"
 SpecialChar: "" # Special

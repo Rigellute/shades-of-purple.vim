@@ -1,19 +1,42 @@
+# Typescript: amadeus/vim-typescript
 tsExportDefault: 'contrast'
 tsFuncArgs: 'other - i'
-typescriptParameters: 'other - i'
 tsThis: 'keywords - i'
+
+# leafgarland/typescript-vim
+typescriptParameters: 'other - i'
+typescriptStorageClass: 'contrast'
+
+# Builtin styles
+typescriptIdentifier: 'definitions' # Structure
+typescriptExport: 'keywords - i'
+typescriptAmbientDeclaration: 'keywords - i'
+typescriptTemplate: 'templates' # String
+typescriptPredefinedType: 'objectKeys' # Type
+typescriptPrototype: 'objectKeys' # Type
+
+typescriptVariable: '@Keyword'
+typescriptOperator: '@Keyword'
+typescriptImport: '@Keyword'
+typescriptTry: '@Exception'
+typescriptExceptions: '@Exception'
+
+typescriptImportType: '@Keyword'
+typescriptExportType: '@Keyword'
+typescriptModule: '@Keyword'
+typescriptInterfaceName: '@Type' # Function
+typescriptAliasDeclaration: '@Type' # Identifier
+typescriptTypeReference: '@Type' # Identifier
+typescriptClassName: '@Type' # Identifier
+typescriptClassHeritage: '@Type' # Identifier
+typescriptCall: 'other' # PreProc
+typescriptArrowFuncArg: 'other' # PreProc
+typescriptObjectLabel: 'contrastLite' # Label
+typescriptTupleLable: 'contrastLite' # Label
+
+# tsx
 tsxAttrib: 'contrast - i'
-tsxComment: 'comment - i'
-typescriptLineComment: 'comment - i'
 tsxTagName: 'other'
 tsxTag: 'white'
 tsxCloseTag: 'white'
 tsxCloseString: 'other'
-typescriptReserved: ''
-typescriptStorageClass: 'contrast'
-typescriptIdentifier: 'other'
-typescriptInterfaceName: 'contrast'
-typescriptAliasDeclaration: 'contrast'
-typescriptInterfaceKeyword: 'contrastLiteII - i'
-typescriptAliasKeyword: 'contrastLiteII - i'
-typescriptExport: 'keywords - i'
