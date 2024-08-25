@@ -74,7 +74,7 @@ javaScriptBoolean: 'constants' # Boolean
 javaScriptRegexpString: 'white' # String
 javaScriptIdentifier: 'other' # Identifier
 javaScriptLabel: 'other' # Label
-javaScriptException: 'invalid' # Exception
+javaScriptException: '' # Exception
 javaScriptMessage: '' # Keyword
 javaScriptGlobal: '' # Keyword
 javaScriptMember: 'contrastLite' # Keyword

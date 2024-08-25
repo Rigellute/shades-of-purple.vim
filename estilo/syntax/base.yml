@@ -54,8 +54,8 @@ Number: "" # Constant
 Float: "" # Constant
 Identifier: "keywords"
 Function: "keywords" # Identifier
-Statement: ""
-Conditional: "keywords" # Statement
+Statement: "keywords"
+Conditional: "" # Statement
 Repeat: "" # Statement
 Label: "" # Statement
 Operator: "keywords ." # Statement
