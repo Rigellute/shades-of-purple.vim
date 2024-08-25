@@ -1,14 +1,15 @@
-" ===============================================================
-" shades_of_purple
-" 
-" URL: 
+""
+" shades_of_purple v1.0.0
+"
+
+
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2020/11/08 11:37
-" ===============================================================
+""
 
 set background=dark
 hi clear
+
 if exists("syntax_on")
   syntax reset
 endif
@@ -25,8 +26,54 @@ let Bold = ""
 if exists('g:shades_of_purple_bold')
   let Bold = "bold"
 endif
-
 let g:shades_of_purple_bold = get(g:, 'shades_of_purple_bold', 0)
+
+hi cssTagName guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssValueLength guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssValueInteger guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssValueNumber guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssValueAngle guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssValueTime guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssValueFrequency guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssColor guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssIdentifier guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssStringQQ guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssStringQ guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssClassName guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssProp guifg=#A5FF90 ctermfg=156 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssUnitDecorators guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi tsExportDefault guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi tsFuncArgs guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi typescriptParameters guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi tsThis guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi tsxAttrib guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi tsxComment guifg=#B362FF ctermfg=135 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi typescriptLineComment guifg=#B362FF ctermfg=135 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi tsxTagName guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi tsxTag guifg=#E1EFFF ctermfg=195 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi tsxCloseTag guifg=#E1EFFF ctermfg=195 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi tsxCloseString guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptStorageClass guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptIdentifier guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptInterfaceName guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptAliasDeclaration guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi typescriptInterfaceKeyword guifg=#FAEFA5 ctermfg=229 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi typescriptAliasKeyword guifg=#FAEFA5 ctermfg=229 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi typescriptExport guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi jsonString guifg=#92FC79 ctermfg=120 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonEscape guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonNumber guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonNull guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonBoolean guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonKeyword guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonNumError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonCommentError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonSemicolonError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonTrailingCommaError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonMissingCommaError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonStringSQError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonNoQuotesError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonTripleQuotesError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#FAD000 ctermbg=220 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
@@ -72,20 +119,6 @@ hi Special guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#cad7e5 ctermfg=188 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi Error guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi Todo guifg=#FF7200 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssTagName guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssValueLength guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssValueInteger guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssValueNumber guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssValueAngle guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssValueTime guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssValueFrequency guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssColor guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssIdentifier guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssStringQQ guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssStringQ guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssClassName guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssProp guifg=#A5FF90 ctermfg=156 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssUnitDecorators guifg=#FFEE80 ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsVariableDef guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsStorageClass guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsExtendsKeyword guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -147,54 +180,10 @@ hi xmlAttrib guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi xmlEndTag guifg=#80FFBB ctermfg=121 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlTag guifg=#80FFBB ctermfg=121 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlTagName guifg=#80FFBB ctermfg=121 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsonString guifg=#92FC79 ctermfg=120 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsonEscape guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsonNumber guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsonNull guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsonBoolean guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsonKeyword guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsonNumError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsonCommentError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsonSemicolonError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsonTrailingCommaError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsonMissingCommaError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsonStringSQError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsonNoQuotesError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsonTripleQuotesError guifg=#EC3A37 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlH1 guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi link htmlH2 htmlH1
 hi link htmlH3 htmlH1
 hi htmlH4 guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link htmlH5 htmlH4
 hi link htmlH6 htmlH4
-hi tsExportDefault guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi tsFuncArgs guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi typescriptParameters guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi tsThis guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi tsxAttrib guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi tsxComment guifg=#B362FF ctermfg=135 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi typescriptLineComment guifg=#B362FF ctermfg=135 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi tsxTagName guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi tsxTag guifg=#E1EFFF ctermfg=195 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi tsxCloseTag guifg=#E1EFFF ctermfg=195 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi tsxCloseString guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptStorageClass guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptIdentifier guifg=#9EFFFF ctermfg=159 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptInterfaceName guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptAliasDeclaration guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi typescriptInterfaceKeyword guifg=#FAEFA5 ctermfg=229 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi typescriptAliasKeyword guifg=#FAEFA5 ctermfg=229 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi typescriptExport guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 
-if exists('*term_setansicolors')
-  let g:terminal_ansi_colors = repeat([0], 16)
-
-endif
-
-if has('nvim')
-endif
-
-" ===================================
-" Generated by Estilo 1.5.0
-" https://github.com/jacoborus/estilo
-" ===================================
